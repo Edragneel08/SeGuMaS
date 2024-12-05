@@ -1,0 +1,104 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : 6 May 2024, 10:05:16 pm
+    Author     : edrag
+*/
+
+/* Style for the table */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px; /* Optional: Adds space below the table */
+}
+
+/* Style for table labels */
+label {
+    font-weight: bold;
+}
+
+/* Style for form inputs and textareas */
+.form-control {
+    width: 100%;
+    padding: 8px;
+    box-sizing: border-box; /* Ensures padding is included in width calculation */
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    resize: vertical; /* Allows vertical resizing of textareas */
+}
+
+/* Style for form select elements */
+select.form-control {
+    width: 100%;
+    padding: 8px;
+    box-sizing: border-box; /* Ensures padding is included in width calculation */
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+/* Optional: Style for table cells (td) */
+td {
+    padding: 8px;
+    border: 1px solid #ddd;
+}
+
+/* Style for the submit button */
+button {
+    background-color: #007bff; /* Blue background color */
+    color: #fff; /* White text color */
+    padding: 10px 20px; /* Padding around the button text */
+    border: none; /* No border */
+    border-radius: 4px; /* Rounded corners */
+    cursor: pointer; /* Show pointer cursor on hover */
+    transition: background-color 0.3s ease; /* Smooth transition on hover */
+}
+
+/* Hover effect for the submit button */
+button:hover {
+    background-color: #0056b3; /* Darker blue background color on hover */
+}
+
+/* Style for input fields within the educational entry table */
+.education-entry input[type="text"],
+.education-entry input[type="number"],
+.education-entry input[type="date"],
+.previousEmployment-entry input[type="text"],
+.previousEmployment-entry input[type="number"],
+.previousEmployment-entry input[type="date"]{
+    width: 100%;
+    padding: 8px;
+    box-sizing: border-box;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+/* Optional: Style for table layout within educational or previous employment entry */
+.education-entry table,
+.previousEmployment-entry table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+/* Optional: Style for table cells (td) within educational or previous employment entry */
+.education-entry td,
+.previousEmployment-entry td {
+    padding: 8px;
+    border: 1px solid #ddd;
+}
+
+input[type="date"] {
+    width: 50%;
+    padding: 8px;
+    box-sizing: border-box;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    line-height: 1.5; /* Adjust the line height for better vertical alignment */
+}
+

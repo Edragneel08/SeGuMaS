@@ -1,0 +1,226 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : 14 Jan 2024, 2:08:27 pm
+    Author     : edrag
+*/
+
+body {
+    margin: 0;
+    font-family: "Lato", sans-serif;
+}
+
+.sidebar {
+    margin: 0;
+    padding: 0;
+    width: 200px;
+    background-color: black;
+    position: fixed;
+    height: 100%;
+    overflow: auto;
+}
+
+.sidebar a {
+    display: block;
+    color: whitesmoke;
+    padding: 16px;
+    text-decoration: none;
+}
+
+.sidebar a.active {
+    background-color:indianred;
+    color: white;
+}
+
+.sidebar a:hover:not(.active) {
+    background-color: #555;
+    color: white;
+}
+
+div.content {
+    margin-left: 200px;
+    padding: 1px 16px;
+    height: 1000%;
+}
+
+@media screen and (max-width: 700px) {
+    .sidebar {
+        width: 100%;
+        height: auto;
+        position: relative;
+    }
+    .sidebar a {
+        float: left;
+    }
+    div.content {
+        margin-left: 0;
+    }
+}
+
+.segu{
+    margin: 0;
+    background-color:#555;
+    color: white;
+}
+
+/* reset our lists to remove bullet points and padding */
+.mainmenu, .submenu {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+/* make ALL links (main and submenu) have padding and background color */
+.mainmenu a {
+    display: block;
+    color: whitesmoke;
+    padding: 16px;
+    text-decoration: none;
+}
+
+/* add hover behaviour */
+.mainmenu a:hover {
+    background-color: #C5C5C5;
+}
+
+
+.submenu a {
+    background-color: #999;
+}
+
+/* hover behaviour for links inside .submenu */
+.submenu a:hover {
+    background-color: #666;
+}
+
+/* this is the initial state of all submenus.
+  we set it to max-height: 0, and hide the overflowed content.
+*/
+.submenu {
+    overflow: hidden;
+    display: none;
+    -webkit-transition: all 0.5s ease-out;
+}
+
+@media screen and (max-width: 400px) {
+    .sidebar a {
+        text-align: center;
+        float: none;
+    }
+}
+
+
+
+//for content
+.mycontainer {
+    margin-top: 20%;
+    width:100%;
+    overflow:auto;
+    border-style: solid;
+}
+.mycontainer div {
+    margin-top: 5%;
+    margin-right:2px;
+    text-align:center;
+    padding-left:10px;
+    width:32%;
+    border-style: solid;
+    float:left;
+}
+
+.mycontainer2 {
+    margin-top: 5%;
+    width:100%;
+    height:100%;
+    overflow:auto;
+}
+
+.mycontainer2 div {
+    margin-top: 5%;
+    text-align:center;
+    padding-left:10px;
+    width:98%;
+    height:50%;
+    float:left;
+}
+
+.mycontainer4 {
+    margin-top: 2%;
+    width:98%;
+    overflow:auto;
+    border-style: solid;
+}
+
+.mycontainer4 div {
+    /*    margin-top: 5%;*/
+    text-align:center;
+    /*    padding-left:10px;*/
+    width:100%;
+    height:50%;
+    float:left;
+}
+
+.mycontainerleave {
+    /*    margin-top: 5%;*/
+    /*    background-color:#A7C7E7;*/
+    margin-bottom: 1%;
+    width:100.90%;
+    height:99%;
+    overflow:auto;
+}
+
+.mycontainerleave div {
+    background-color:#A7C7E7;
+    margin-top: 0.6%;
+    text-align:center;
+    padding-left:10px;
+    width:99%;
+    height:50%;
+    float:left;
+}
+
+//search
+.subnav {
+    position: relative;
+    width: 100%;
+    background-color: #333;
+}
+
+.subnav input[type=text] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+}
+
+.subnav table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.subnav th, .subnav td {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+.subnav th {
+    text-align: center;
+    background-color: #0A2472;
+    color: white;
+}
+
+.subnav tr:nth-child(even) {
+    background-color: #f2f2f2
+}
+
+.subnav tr:nth-child(odd) {
+    background-color: #f2f2f2
+}
+
+.subnav tr:hover {
+    background-color: #ddd;
+}

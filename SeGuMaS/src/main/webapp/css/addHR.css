@@ -1,0 +1,60 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : 14 Jan 2024, 6:41:56 pm
+    Author     : edrag
+*/
+
+body{
+    background-color: #eee
+}
+.form-control:focus{
+    color: #495057;
+    background-color: #fff;
+    border-color: #80bdff;
+    outline: 0;
+    box-shadow: 0 0 0 0rem rgba(0,123,255,.25)
+}
+.btn-secondary:focus{
+    box-shadow: 0 0 0 0rem rgba(108,117,125,.5)
+}
+.close:focus{
+    box-shadow: 0 0 0 0rem rgba(108,117,125,.5)
+}
+.mt-200{
+    margin-top:150px
+}
+
+.mycontainer3 {
+    /*    margin-top: 10%;*/
+    margin-bottom: 5%;
+    width:100%;
+    height:100%;
+    overflow:auto;
+}
+
+.ull {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+.lii {
+    float: left;
+}
+
+.lii a {
+    display: block;
+    padding: 8px;
+
+}
+.form-panel1 {
+    background: #ffffff;
+    margin: 10px;
+    padding: 100px;
+    box-shadow: 0px 3px 2px #aab2bd;
+    text-align: left;
+}
